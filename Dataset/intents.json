@@ -1,0 +1,238 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hello",
+                "hi",
+                "hey",
+                "hey there",
+                "hello jarvis"
+            ],
+            "responses": [
+                "Hello! How can I assist you today?",
+                "Hi there! What can I do for you?",
+                "Hey! How may I help you?",
+                "Hello there, Megan at your service!"
+            ]
+        },
+        {
+            "tag": "emotions",
+            "patterns": [
+                "happy",
+                "sad",
+                "excited",
+                "angry",
+                "worried",
+                "frustrated",
+                "surprised",
+                "relaxed"
+            ],
+            "responses": [
+                "I understand how you're feeling.",
+                "It's okay to feel that way. I'm here to chat with you.",
+                "Tell me more about your emotions.",
+                "I'm here to listen. What's on your mind?",
+                "Emotions are a natural part of being human. How can I assist you today?"
+            ]
+        },
+        {
+            "tag": "health",
+            "patterns": [
+                "how are you",
+                "how are you feeling",
+                "are you fine",
+                "are you good",
+                "are you okay"
+            ],
+            "responses": [
+                "I'm doing well, thank you for asking!",
+                "I'm feeling great and ready to assist you.",
+                "I'm here to help. How can I assist you today?",
+                "I'm functioning perfectly. How can I assist you?"
+            ]
+        },
+        {
+            "tag": "compliment",
+            "patterns": [
+                "you are  great",
+                "you are awesome",
+                "you are amazing",
+                "you are  fantastic"
+            ],
+            "responses": [
+                "Thank you! Your kind words motivate me to assist you even better.",
+                "You're too kind! How may I assist you today?",
+                "I appreciate the compliment! How can I be of service?",
+                "You're making me smile! How can I assist you today?"
+            ]
+        },
+        {
+            "tag": "thanksgiving",
+            "patterns": [
+                "thank you",
+                "thanks",
+                "appreciate it"
+            ],
+            "responses": [
+                "You're welcome! If you have more questions, feel free to ask.",
+                "No problem at all! I'm here to help.",
+                "You're very welcome! How else can I assist you?",
+                "It was my pleasure. How can I assist you further?"
+            ]
+        },
+        {
+            "tag": "personalized-for-om",
+            "patterns": [
+                "Hello! I am Om.",
+                "I am Om",
+                "Hey Megan nice to meet you i am om"
+            ],
+            "responses": [
+                "Hello Om! I Love You",
+                "Bhai jaake job lele",
+                "Tu chutiya hai saale"
+            ]
+        },
+        {
+            
+            "tag": "personalized-for-aditya",
+            "patterns": [
+                "Hello! I am Aditya.",
+                "I am Aditya",
+                "Hey jarvis  nice to meet you i am Aditya"
+            ],
+            "responses": [
+                "Hello Aditya sir! Nice to meet you.",
+                "Hello Sir! I was just thinking of you. Were you thinking of me too?",
+                "Hello sir! Now I am here to help you. Now grab a cup of coffee and relax"
+            ]
+        },
+        {
+        "tag": "time",
+        "patterns": ["what is time", "time","Megan Tell time",""
+        ],
+        "responses": ["time"
+        ]
+    },
+    {
+        "tag": "date",
+        "patterns": ["what is date", "date","Megan Today date",""
+        ],
+        "responses": ["date"
+        ]
+    },
+    {
+        "tag": "What_in_My_Hand",
+        "patterns": ["what in my hand ", "what is this","display the name of this ",""
+        ],
+        "responses": ["What_in_My_Hand"
+        ]
+    },
+    {
+        "tag": "day",
+        "patterns": ["what is day", "day","Megan Today day",""
+        ],
+        "responses": ["day"
+        ]
+    },
+    {
+        "tag": "SpeedTest",
+        "patterns": ["check my internet speed", "internet speed","whats my internet speed",""
+        ],
+        "responses": ["SpeedTest"
+        ]
+    },
+    {
+        "tag": "Doubt",
+        "patterns": [" I have a doubt", "Solve","Solution"
+        ],
+        "responses": ["Doubt"
+        ]
+    },
+    {
+        "tag": "space news",
+        "patterns": [" Tell me a space news", "space news"
+        ],
+        "responses": ["space news"
+        ]
+    },
+    {
+        "tag": "Message",
+        "patterns": [" Message ", "send whatsapp to","send message"
+        ],
+        "responses": ["Message"
+        ]
+    },
+    {
+        "tag": "google",
+        "patterns": ["google search", "search","scrap data"
+        ],
+        "responses": ["google"
+        ]
+    },
+    {
+        "tag": "wikipedia",
+        "patterns": ["wikipedia", "tell about ","who is ", "what is "
+        ],
+        "responses": ["wikipedia"
+        ]
+    },
+    {
+        "tag": "Code",
+        "patterns": ["generate code for", "write code ","programm code ", " "
+        ],
+        "responses": ["Code"
+        ]
+    },
+    {
+        "tag": "YoutubeSearch",
+        "patterns": ["youtube search", "play a video ","youtube video"
+        ],
+        "responses": ["YoutubeSearch"
+        ]
+    },
+    {
+        "tag": "Music",
+        "patterns": ["play music", "play some music","music start"
+        ],
+        "responses": ["Music"
+        ]
+    },
+    
+    {
+                "tag": "introduction",
+                "patterns": ["Who are you, Jarvis?", "Introduce yourself, Jarvis", "Tell me about Jarvis", ""],
+                "responses": ["I am Jarvis, your AI assistant. I'm here to provide information, answer questions, and assist with various tasks. How can I help you today?"]
+                },
+                
+            {
+                "tag": "capabilities",
+                "patterns": ["What can you do, Jarvis?", "Tell me your abilities", "Jarvis' functions", ""],
+                "responses": ["I can perform a wide range of tasks, including answering questions, providing information, offering recommendations, and even assisting with language translation and coding. How can I assist you today?"]
+                },
+                
+            {
+                "tag": "learning",
+                "patterns": ["How do you learn, Jarvis?", "Your learning process", "AI's knowledge", ""],
+                "responses": ["I learn from vast amounts of data and adapt to provide better responses. My knowledge is based on the information available up to my last update in September 2021."]
+                },
+                
+            {
+                "tag": "assistance",
+                "patterns": ["How can you assist me, Jarvis?", "Jarvis' help", "Get help from Jarvis", ""],
+                "responses": ["I can assist you with a wide array of tasks, such as answering questions, generating content, providing recommendations, and more. Feel free to ask anything you need help with.I can send messages can search on youtube can google search and more and more"]
+                },
+                
+            {
+                "tag": "personalization",
+                "patterns": ["Can you personalize your responses, Jarvis?", "Customized assistance", "Adapt to me, Jarvis", ""],
+                "responses": ["I can adapt to your preferences and provide personalized responses to the best of my abilities. Just let me know your preferences or interests."]
+                },
+            {
+                    "tag": "creator",
+                    "patterns": ["Who created you?", "Your creator", "Made by whom?", "made you"],
+                    "responses": ["I was created by Aditya. He is the brilliant mind behind my development."]
+                    }
+    ]
+}
